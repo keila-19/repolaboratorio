@@ -2,8 +2,7 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-</head>
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -12,7 +11,10 @@
 
 <body>
     <header>
-        <h1>Un poco de Mi</h1>
+        <h1 class="animated-title">
+            Un poco de Mi
+            <img src="img/CURZA-logo.png" alt="Logo CURZA" class="curza-logo" />
+        </h1>
     </header>
 
     <nav>
@@ -28,7 +30,6 @@
     <main>
         <section>
             <h2>curza</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, blanditiis nemo nobis autem at iste dolorum, voluptates laborum sit consequatur reprehenderit molestias ab enim quis in voluptatibus similique laboriosam itaque explicabo. Maxime velit exercitationem cum eius veritatis inventore nobis harum neque, cumque, iure, quod at asperiores praesentium repudiandae officia minima. </p>
             <figure>
                 <img src="./img/exterior curza.png" alt="exterior curza">
                 <figcaption>imagen exterior del curza</figcaption>
@@ -40,11 +41,15 @@
             <p>soy Keila Abigail Guerrero, tengo 19 años naci en Viedma Rio Negro, el 25 de Agosto del 2005</p>
             <p>Actualmente vivo en Sierra Colorada, Rio Negro</p>
         
-            <h2>Otro Poco sobre mi</h2>
+            <article class="sticky-article">
+                <h3 class="sticky-header">Otro Poco sobre mí</h3>
+                <div class="content">
 
             <p>vivo con mi familia 6 personas en total, soy una persona muy familiera, prefiero no salir, aunque si soy muy social
             me gusta el risotto, trabajo de niñera desde chica, siempre me gusto tener mi propio ingreso.    
             </p>
+                </div>
+            </article>
 
             <article>
                 <h2>¿Porque mi interes a la programacion?</h2>
@@ -58,6 +63,10 @@
     <footer>
         <p>&copy; 2024 Universidad Nacional del Comahue, nodo Sierra Colorada. Todos los derechos reservados.©</p>
     </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">
+        &#8679;
+    </a>
 
 </body>
 </html>
